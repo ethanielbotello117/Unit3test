@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Take the coding survey so you can help us improve in the future!">
+    <meta name="author" content="Ethaniel Botello">
+    <link rel="shortcut icon" href="assets/lightBackground.png" type="image/x-icon">
+    <html lang="en" html>
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Take the coding survey so you can help us improve in the future!">
+    <meta property="og:title" content="Survey">
+    <title>Survey</title>
+</head>
+
+<body>
+    <form action="data.json" method="post"></form>
+    <style>
+        body {
+            background-image: url('assets/lightBackground.png');
+        }
+    </style>
+
+    <section>
+        <fieldset>
+            <legend>Links to other pages</legend>
+            <ul>
+                <li><a href="homepage.html">Home Page</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </fieldset>
+    </section>
+    <section>
+        <fieldset>
+            <legend>Multiple Choice</legend>
+
+            <p>What is the <i>scientific</i> name for H<sub>2</sub>o</p>
+            <ul>
+                <label for="air"></label>
+                <li><input type="radio" id="air" name="user.h20">Air</li>
+
+                <label for="fire"></label>
+                <li><input type="radio" id="fire" name="user.h20">Fire</li>
+
+                <label for="earth"></label>
+                <li><input type="radio" id="earth" name="user.h20">Earth</li>
+
+                <label for="water"></label>
+                <li><input type="radio" id="water" name="user.h20">Water</li>
+            </ul>
+
+
+            <p>What is the <i>most popular</i> name for Dec. 25<sup>th</sup></p>
+            <ul>
+                <label for="christmas"></label>
+                <li><input type="radio" id="christmas" name="user.december">Christmas</li>
+
+                <label for="thanksgiving"></label>
+                <li><input type="radio" id="thanksgiving" name="user.december">Thanksgiving</li>
+
+                <label for="valentine"></label>
+                <li><input type="radio" id="valentine" name="user.december">Valentines Day</li>
+
+                <label for="halloween"></label>
+                <li><input type="radio" id="halloween" name="user.december">Halloween </li>
+            </ul>
+
+
+            <p>Which of the following is the chemical code for <b>sugar?</b></p>
+            <ul>
+                <label for="imnottypingthat1"></label>
+                <li><input type="checkbox" id="imnottypingthat1"
+                        name="user.sugar">C<sub>12</sub>H<sub>22</sub>O<sub>11</sub></li>
+
+                <label for="imnottypingthat2"></label>
+                <li><input type="checkbox" id="imnottypingthat2" name="user.sugar">C<sub>5</sub>H<sub>10</sub>O<sub>5</sub>
+                </li>
+
+                <label for="imnottypingthat3"></label>
+                <li><input type="checkbox" id="imnottypingthat3" name="user.sugar">C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>
+                </li>
+
+                <label for="imnottypingthat4"></label>
+                <li><input type="checkbox" id="imnottypingthat4"
+                        name="user.sugar">C<sub>11</sub>H<sub>22</sub>O<sub>11</sub></li>
+            </ul>
+
+
+            <p>Which of the following are <b>even?</b></p>
+            <ul>
+                <label for="1"></label>
+                <li><input type="checkbox" id="1" name="user.number">1<sup>st</sup></li>
+
+                <label for="2"></label>
+                <li><input type="checkbox" id="2" name="user.number">2<sup>nd</sup></li>
+
+                <label for="3"></label>
+                <li><input type="checkbox" id="3" name="user.number">3<sup>rd</sup></li>
+
+                <label for="4"></label>
+                <li><input type="checkbox" id="4" name="user.number">4<sup>th</sup></li>
+            </ul>
+            <button>Submit</button>
+        </fieldset>
+    </section>
+    </body>
